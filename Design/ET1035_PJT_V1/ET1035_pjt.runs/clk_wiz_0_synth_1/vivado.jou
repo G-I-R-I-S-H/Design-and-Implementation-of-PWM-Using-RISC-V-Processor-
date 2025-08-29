@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Aug  9 08:43:15 2025
+# Process ID: 14288
+# Current directory: C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_PJT_V1/ET1035_pjt.runs/clk_wiz_0_synth_1
+# Command line: vivado.exe -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+# Log file: C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_PJT_V1/ET1035_pjt.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file: C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_PJT_V1/ET1035_pjt.runs/clk_wiz_0_synth_1\vivado.jou
+# Running On        :ASUS-TUF-A15
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 5 4600H with Radeon Graphics         
+# CPU Frequency     :2994 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :7966 MB
+# Swap memory       :12884 MB
+# Total Virtual     :20851 MB
+# Available Virtual :8595 MB
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace

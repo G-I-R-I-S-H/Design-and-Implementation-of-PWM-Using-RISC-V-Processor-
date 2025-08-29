@@ -1,0 +1,146 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sys_top_behav xil_defaultlib.sys_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:6240]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:6250]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:6255]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:7637]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:35344]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:38361]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:46052]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:46055]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:46070]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:46073]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:46079]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:46082]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:46088]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:9721]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:48495]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:48498]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:18059]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:18083]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:18107]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:18115]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:19221]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:20012]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:20015]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22521]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22524]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22529]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22532]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22537]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22540]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22545]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22548]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22553]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22556]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22561]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22564]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22569]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22572]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22577]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22580]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22585]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:22588]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:24443]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:24446]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:26161]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:26167]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:26198]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:26201]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:27524]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:27527]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:29275]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:29278]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:29349]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v:29352]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/UART/uart_top.v:568]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/UART/uart_top.v:661]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/UART/uart_top.v:879]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/UART/uart_top.v:1600]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/UART/uart_top.v:1603]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'CO' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/UART/uart_top.v:2919]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'O' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/UART/uart_top.v:2922]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 32 for port 'PWDATA' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/I2C/i2c_top.v:51]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 32 for port 'PRDATA' [C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/I2C/i2c_top.v:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.constants
+Compiling package ieee.std_logic_textio
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.VCC
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.FDCE_default
+Compiling module unisims_ver.FDPE_default
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module xil_defaultlib.ET1035_mul_div
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.ET1035_decode_alu
+Compiling module xil_defaultlib.ET1035_pc_gen
+Compiling module xil_defaultlib.ET1035_mem_wb
+Compiling module unisims_ver.MUXF8
+Compiling module xil_defaultlib.ET1035_regfile
+Compiling module xil_defaultlib.ET1035_top
+Compiling module unisims_ver.FDRE_default_1
+Compiling module xil_defaultlib.baud_gen
+Compiling module unisims_ver.FDSE_default
+Compiling module xil_defaultlib.interrupt
+Compiling module xil_defaultlib.memory_64_11
+Compiling module unisims_ver.FDPE_default_1
+Compiling module unisims_ver.FDCE_default_1
+Compiling module xil_defaultlib.fifo_11_64
+Compiling module xil_defaultlib.receiver
+Compiling module xil_defaultlib.registers
+Compiling module xil_defaultlib.memory_64_8
+Compiling module xil_defaultlib.fifo_8_64
+Compiling module xil_defaultlib.transmitter
+Compiling module xil_defaultlib.uart_top
+Compiling module xil_defaultlib.gpio_chip
+Compiling module xil_defaultlib.spi_controller
+Compiling module xil_defaultlib.spi_master
+Compiling module xil_defaultlib.spi_top
+Compiling module xil_defaultlib.i2c_controller
+Compiling module xil_defaultlib.i2c_master
+Compiling module xil_defaultlib.i2c_top
+Compiling module xil_defaultlib.pwm
+Compiling architecture rom_thejas32_a of entity xil_defaultlib.ROM_THEJAS32 [rom_thejas32_default]
+Compiling architecture mem_0_a of entity xil_defaultlib.mem_0 [mem_0_default]
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.block_mem_1
+Compiling architecture mem_1_a of entity xil_defaultlib.mem_1 [mem_1_default]
+Compiling architecture sdn_inv_s_16_arch of entity xil_defaultlib.SDN_INV_S_16 [sdn_inv_s_16_default]
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling architecture sys_top_a of entity xil_defaultlib.sys_top
+Built simulation snapshot sys_top_behav

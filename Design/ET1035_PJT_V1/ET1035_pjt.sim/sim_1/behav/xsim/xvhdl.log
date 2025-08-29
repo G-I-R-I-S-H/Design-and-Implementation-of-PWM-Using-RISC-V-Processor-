@@ -1,0 +1,11 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/MEMORY/ROM/ROM_THEJAS32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ROM_THEJAS32'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/GEN_FILES/SDN_INV_S_16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SDN_INV_S_16'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/GEN_FILES/constants.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/MEMORY/ROM/mem_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mem_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/MEMORY/RAM/mem_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mem_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Asus/Downloads/IRP-SOC-main/IRP-SOC-main/Design/ET1035_SRC/TOP/sys_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sys_top'
