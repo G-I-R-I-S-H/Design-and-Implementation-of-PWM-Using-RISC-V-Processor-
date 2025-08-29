@@ -23,7 +23,7 @@ control applications.
 ## Methodology
 
 This project implements a **PWM-based DC Motor Control System** using the **VEGA ET1035 RISC-V processor** on the **Arty A7 FPGA** platform. The workflow integrates hardware-level PWM generation with real-time software control for precise duty cycle modulation.
-<!-- ![Simulation Result](./silde_sim.png.png) -->
+![Simulation Result](./sim.jpgs) 
 
 ### 1. Hardware Design (Verilog)
 - Designed a Verilog module to generate PWM signals for motor speed and LED brightness control.  
