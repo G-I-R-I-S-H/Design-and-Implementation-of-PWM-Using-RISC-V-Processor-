@@ -30,7 +30,7 @@ This project implements a **PWM-based DC Motor Control System** using the **VEGA
 - Implemented **counter-based logic** to define ON/OFF durations based on the duty cycle.  
 - Ensured modularity for easy integration with other SoC components.
 - Simulated and verified the PWM module’s functionality to ensure correct signal generation and duty cycle control.
-- ![Simulation Result](./sim.jpgs) 
+- ![Simulation Result](./sim.jpg) 
 
 ### 2. FPGA Configuration (Vivado)
 - Synthesized and implemented the Verilog module using **Xilinx Vivado**.  
