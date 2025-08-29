@@ -23,6 +23,10 @@ control applications.
 ## Methodology
 
 This project implements a **PWM-based DC Motor Control System** using the **VEGA ET1035 RISC-V processor** on the **Arty A7 FPGA** platform. The workflow integrates hardware-level PWM generation with real-time software control for precise duty cycle modulation.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 284d78a31378ab07401573ec0ab0ef284a2f9d12
 
 
 ###  Hardware Design (Verilog)
@@ -30,7 +34,11 @@ This project implements a **PWM-based DC Motor Control System** using the **VEGA
 - Implemented **counter-based logic** to define ON/OFF durations based on the duty cycle.  
 - Ensured modularity for easy integration with other SoC components.
 - Simulated and verified the PWM module’s functionality to ensure correct signal generation and duty cycle control.
+<<<<<<< HEAD
 ![Simulation Result](./sim.jpg) 
+=======
+- ![Simulation Result](./sim.jpg) 
+>>>>>>> 284d78a31378ab07401573ec0ab0ef284a2f9d12
 
 When programmed onto the FPGA, the RISC-V processor writes duty cycle values to the PWM register using a C program compiled with the Vega SDK. These values directly update the PWM hardware logic, which controls LED brightness and DC motor speed in real time.
 
