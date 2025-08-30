@@ -6,8 +6,8 @@
  Filename		: boot.c
  Purpose		: UART interface
  Description		: transmission of boot img
- Author(s)		: Manjunath Inamati
- Email			: manjunathinamati80@gmail.com
+ Author(s)		: Girish Hulli
+ Email			: girishhulli7@gmail.com
     
  See LICENSE for license details.
 ******************************************************************************/

@@ -6,8 +6,8 @@
  Filename		: uart_pwm.c
  Purpose		: UART and PWM interface
  Description		: Adjust PWM duty cycle using UART
- Author(s)		: Manjunath Inamati
- Email			: manjunathinamati80@gmail.com
+ Author(s)		: Girish Hulli
+ Email			: girishhulli7@gmail.com
     
  See LICENSE for license details.
 ******************************************************************************/

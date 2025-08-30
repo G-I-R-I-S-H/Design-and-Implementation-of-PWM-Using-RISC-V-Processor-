@@ -6,8 +6,8 @@
  Filename		: spi_ws.c
  Purpose		: SPI Interface
  Description		: transmission with spi interface
- Author(s)		: Manjunath Inamati
- Email			: manjunathinamati80@gmail.com
+ Author(s)		: Girish Hulli
+ Email			: girishhulli7@gmail.com
     
  See LICENSE for license details.
 ******************************************************************************/

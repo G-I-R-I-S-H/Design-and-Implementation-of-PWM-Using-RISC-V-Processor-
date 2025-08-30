@@ -169,24 +169,24 @@ The Verilog-based PWM module was instantiated in the RISC-V ET1035 SoC and teste
 
 ## 3. LED Brightness Control using PWM  
 <p align="center">
-  <img src="Results/LED.jpg" alt="LED Brightness Screenshot" width="50%"/>
+  <img src="Results/LED.jpg" alt="LED Brightness" width="70%"/>
 </p>  
 
 The PWM output was connected to an LED on a breadboard setup. Adjusting the duty cycle through the C code running on the RISC-V processor resulted in varying LED brightness levels. Increased duty cycles made the LED brighter, while reduced duty cycles dimmed it. This experiment successfully demonstrated seamless hardware-software integration and real-time control using PWM.  
 
-### Demo Video  
+### Video  
 [Watch Video](Results/LED_video.mp4)  
 
 ---
 
 ## 4. DC Motor Speed Control using PWM  
 <p align="center">
-  <img src="Results/motor.jpg" alt="DC Motor Screenshot" width="50%"/>
+  <img src="Results/motor.jpg" alt="DC Motor" width="50%"/>
 </p>  
 
 The PWM signal was also interfaced with an L293D motor driver module to regulate a DC motor’s speed. By modifying the duty cycle from the processor, the average voltage supplied to the motor was controlled, thereby adjusting its rotational speed. Higher duty cycles increased the motor speed, while lower duty cycles slowed it down, confirming the designed PWM module’s effectiveness in real-world embedded applications.  
 
-### Demo Video  
+### Video  
 [Watch Video](Results/motor_video.mp4)  
 
 ---
@@ -204,5 +204,5 @@ In addition to testing the PWM on the oscilloscope, LED, and DC motor, the proje
 
 This practical implementation highlights how the designed PWM hardware integrates seamlessly into a real-time embedded system. Combining *Verilog-based PWM design, RISC-V processor control, and sensor-driven feedback*, the project effectively demonstrates a complete hardware-software co-design for energy-efficient streetlight automation.  
 
-### Demo Video  
+### Video  
 [Watch Video](Results/exhibition.mp4)  

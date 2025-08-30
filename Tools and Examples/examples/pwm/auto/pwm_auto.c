@@ -2,12 +2,12 @@
 
  Project Name		: SDP - SOC Development Project
  Project Code		: ET1035
- Created		: 23-Nov-2024
+ Created		: 27-Nov-2024
  Filename		: led_toggle.c
  Purpose		: PWMinterface
  Description		: pwm
- Author(s)		: Manjunath Inamati
- Email			: manjunathinamati80@gmail.com
+ Author(s)		: Girish Hulli
+ Email			: girishhulli7@gmail.com
     
  See LICENSE for license details.
 ******************************************************************************/

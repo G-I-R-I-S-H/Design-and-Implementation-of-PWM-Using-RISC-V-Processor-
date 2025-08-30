@@ -6,8 +6,9 @@
  Filename           : spi_r.c
  Purpose            : SPI Interface
  Description        : SPI read and UART transmission
- Author(s)          : Manjunath Inamati
- Email              : manjunathinamati80@gmail.com
+ Author(s)          : Girish Hulli
+ Email              : girishhulli7@gmail.com
+ 
     
  See LICENSE for license details.
 ******************************************************************************/
