@@ -147,11 +147,11 @@ text
   - In the Program Device Wizard, enter "<archive extracted location>vivado_proj/Arty-A7-100-XADC.runs/impl_1/XADCdemo.bit" into the "Bitstream file" field. Then click Program.
   - The demo will now be programmed onto the Arty A7-100T.
 
-  # Results  
+# Results  
 
 ## 1. PWM Simulation Results  
 <p align="center">
-  <img src="./sim.jpg" alt="Simulation Screenshot" style="max-width:100%; height:auto;"/>
+  <img src="./simu.jpg" alt="Simulation Screenshot" style="width:70%; height:auto;"/>
 </p>  
 
 The developed PWM module was initially validated through simulation before deploying it to the FPGA. Icarus Verilog was used as the simulator, and GTKWave for waveform analysis. The PWM counter and duty cycle functionalities were thoroughly tested. The output waveforms clearly depicted the PWM signal toggling with expected duty cycle variations, ensuring accurate register updates and logic implementation.  
@@ -160,7 +160,7 @@ The developed PWM module was initially validated through simulation before deplo
 
 ## 2. PWM Signal Verification on Oscilloscope  
 <p align="center">
-  <img src="./Oscilloscope.jpg" alt="Oscilloscope Screenshot" style="max-width:100%; height:auto;"/>
+  <img src="./Oscilloscope.jpg" alt="Oscilloscope Screenshot" style="width:70%; height:auto;"/>
 </p>  
 
 The Verilog-based PWM module was instantiated in the RISC-V ET1035 SoC and tested on the Arty A7 FPGA board. The output waveform was analyzed using a cathode ray oscilloscope (CRO). By modifying the duty register in the C program, different duty cycles were generated, and the oscilloscope confirmed precise variations in pulse width, validating the correctness of the hardware PWM implementation.  
@@ -169,7 +169,7 @@ The Verilog-based PWM module was instantiated in the RISC-V ET1035 SoC and teste
 
 ## 3. LED Brightness Control using PWM  
 <p align="center">
-  <img src="./LED.jpg" alt="LED Brightness Screenshot" style="max-width:100%; height:auto;"/>
+  <img src="./LED.jpg" alt="LED Brightness Screenshot" style="width:70%; height:auto;"/>
 </p>  
 
 The PWM output was connected to an LED on a breadboard setup. Adjusting the duty cycle through the C code running on the RISC-V processor resulted in varying LED brightness levels. Increased duty cycles made the LED brighter, while reduced duty cycles dimmed it. This experiment successfully demonstrated seamless hardware-software integration and real-time control using PWM.  
@@ -181,7 +181,7 @@ The PWM output was connected to an LED on a breadboard setup. Adjusting the duty
 
 ## 4. DC Motor Speed Control using PWM  
 <p align="center">
-  <img src="./motor.jpg" alt="DC Motor Screenshot" style="max-width:100%; height:auto;"/>
+  <img src="./motor.jpg" alt="DC Motor Screenshot" style="width:70%; height:auto;"/>
 </p>  
 
 The PWM signal was also interfaced with an L293D motor driver module to regulate a DC motor’s speed. By modifying the duty cycle from the processor, the average voltage supplied to the motor was controlled, thereby adjusting its rotational speed. Higher duty cycles increased the motor speed, while lower duty cycles slowed it down, confirming the designed PWM module’s effectiveness in real-world embedded applications.  
@@ -202,8 +202,8 @@ In addition to testing the PWM on the oscilloscope, LED, and DC motor, the proje
 | **No obstacle** + **light present** | **30%** | LED dimmed for power saving |
 | **No obstacle** + **no light** | **50%** | LED at standby brightness |
 
-
 This practical implementation highlights how the designed PWM hardware integrates seamlessly into a real-time embedded system. Combining *Verilog-based PWM design, RISC-V processor control, and sensor-driven feedback*, the project effectively demonstrates a complete hardware-software co-design for energy-efficient streetlight automation.  
 
 ### Demo Video  
 [Watch Video](./exhibition.mp4)  
+
