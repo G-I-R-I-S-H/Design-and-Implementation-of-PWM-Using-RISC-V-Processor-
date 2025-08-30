@@ -32,7 +32,7 @@ This project implements a **PWM-based DC Motor Control System** using the **VEGA
 - Ensured modularity for easy integration with other SoC components.
 - Simulated and verified the PWM module’s functionality to ensure correct signal generation and duty cycle control.
 
-![Simulation Result](./sim.jpg) 
+![Simulation Result](./simu.jpg) 
 
 When programmed onto the FPGA, the RISC-V processor writes duty cycle values to the PWM register using a C program compiled with the Vega SDK. These values directly update the PWM hardware logic, which controls LED brightness and DC motor speed in real time.
 
