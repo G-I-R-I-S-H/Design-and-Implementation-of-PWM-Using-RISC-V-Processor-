@@ -6,8 +6,8 @@
  Filename		: ir_sensor.c
  Purpose		: GPIO interface
  Description		: read IR sensor status and blink led
- Author(s)		: Manjunath Inamati
- Email			: manjunathinamati80@gmail.com
+ Author(s)		: Girish Hulli
+ Email			: girishhulli7@gmail.com
     
  See LICENSE for license details.
 ******************************************************************************/

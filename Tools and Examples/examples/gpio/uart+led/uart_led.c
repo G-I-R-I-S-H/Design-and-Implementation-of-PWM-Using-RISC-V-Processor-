@@ -6,8 +6,8 @@
  Filename		: uart_led.c
  Purpose		: UART and GPIO interface
  Description		: control led through UART
- Author(s)		: Manjunath Inamati
- Email			: manjunathinamati80@gmail.com
+ Author(s)		: Girish Hulli
+ Email			: girishhulli7@gmail.com
     
  See LICENSE for license details.
 ******************************************************************************/
