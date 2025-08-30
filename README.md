@@ -169,7 +169,7 @@ The Verilog-based PWM module was instantiated in the RISC-V ET1035 SoC and teste
 
 ## 3. LED Brightness Control using PWM  
 <p align="center">
-  <img src="Results/LED.jpg" alt="LED Brightness" width="70%"/>
+  <img src="Results/LED.jpg" alt="LED Brightness" width="70%" height="50"/>
 </p>  
 
 The PWM output was connected to an LED on a breadboard setup. Adjusting the duty cycle through the C code running on the RISC-V processor resulted in varying LED brightness levels. Increased duty cycles made the LED brighter, while reduced duty cycles dimmed it. This experiment successfully demonstrated seamless hardware-software integration and real-time control using PWM.  
