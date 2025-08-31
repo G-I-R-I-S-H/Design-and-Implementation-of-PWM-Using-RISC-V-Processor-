@@ -87,17 +87,19 @@ source ./scripts/create_project.tcl
   - `.bin` — Binary file stored in non-volatile memory for persistent configuration. 
 - Program the FPGA with the .bit file: 
 > 💡 Example :
-text
-./vivado_proj/ET1035_PWM.runs/impl_1/PWMdemo.bit
+```text
 
+./vivado_proj/ET1035_PWM.runs/impl_1/PWMdemo.bit
+```
 
 ## 3. Compile RISC-V Program with Makefile
 
 - Navigate to the Software folder:  
 > 💡 Example :
-text
- cd sw
+```text
 
+ cd sw
+```
 - Ensure the PWM base address (assigned during port mapping in hardware) is correctly defined in:
 
   - *config.h* → ccontains memory map (e.g., '#define PWM_BASE_ADDR 0x10400000') 
@@ -106,25 +108,25 @@ text
 
   - *pwm.c* → contains functions (e.g., pwm_set_duty(int value)) that write duty cycle values to the mapped register
     > 💡 Example :
-    text
+   ``` text
     typedef struct {
     unsigned int DUTY_CYCLE;
     } PWM_REG;
     #define pwm_reg (*((volatile PWM_REG*)(PWM_BASE_ADDR)))
-    
+    ```
 - Once configuration files are correct, run:  
  > 💡 Example :
-text
+```text
 make
-
+```
 
 This compiles all sources (main.c, pwm.c, uart.c) and links them with Vega SDK libraries.  
 - The final RISC-V binary will be generated as:  
 
  > 💡 Example :
-text
+```text
     pwm_test.bin
-
+```
 ## 4. Load Program via UART Bootloader  
 
 - Open a UART terminal (e.g., *Tera Term/ **Minicom*) at 115200 baud.  
